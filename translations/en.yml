@@ -1,0 +1,140 @@
+---
+title: "Harvest App"
+packages:
+  - default
+  - app_harvest_app
+
+parts:
+  - translation:
+      key: "txt.apps.harvest_app.app.parameters.url.label"
+      title: "URL of the Harvest account to define in the settings"
+      value: "URL"
+  - translation:
+      key: "txt.apps.harvest_app.app.parameters.url.helpText"
+      title: "helptext for URL in the settings"
+      value: "The full URL of your Harvest account"
+  - translation:
+      key: "txt.apps.harvest_app.app.parameters.defaultNote.label"
+      title: "note to set by default in the app, this is something we ask for in the settings"
+      value: "Default Note"
+  - translation:
+      key: "txt.apps.harvest_app.app.parameters.defaultNote.helpText"
+      title: "help text for note field"
+      value: "Pre-populate the note field (you can edit this before starting a timer)"
+  - translation:
+      key: "txt.apps.harvest_app.app.parameters.description"
+      title: "Description of what the app does"
+      value: "Track time on tickets, with powerful reporting"
+  - translation:
+      key: "txt.apps.harvest_app.exception"
+      title: "error message. the error placeholder here is the return from the api. it could be something like wrong credentials"
+      value: "An error occured: {{error}}"
+  - translation:
+      key: "txt.apps.harvest_app.form.add_duration"
+      title: "button in the app"
+      value: "Add Duration"
+  - translation:
+      key: "txt.apps.harvest_app.form.cancel_duration"
+      title: "button in the app"
+      value: "Cancel Duration"
+  - translation:
+      key: "txt.apps.harvest_app.form.client"
+      title: "Dropdown containing all the client list form harvest"
+      value: "Client"
+  - translation:
+      key: "txt.apps.harvest_app.form.empty"
+      title: "Warning message to say that the field is empty, for instance the message will be priority is empty!"
+      value: "{{field}} is empty!"
+  - translation:
+      key: "txt.apps.harvest_app.form.no_projects"
+      title: "Message to declare to the user there are no projects foudn in this account"
+      value: "No projects found for your Harvest account!"
+  - translation:
+      key: "txt.apps.harvest_app.form.hours"
+      title: "Hours fiedl to fill in with hours"
+      value: "Hours"
+  - translation:
+      key: "txt.apps.harvest_app.form.notes"
+      title: "notes field about this ticket in the app"
+      value: "Notes"
+  - translation:
+      key: "txt.apps.harvest_app.form.notes_message"
+      title: "Message inside the App giving you the Zendesk ticket number the subject and the requester"
+      value: "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}"
+  - translation:
+      key: "txt.apps.harvest_app.form.project"
+      title: "Project label, the project name appears after that"
+      value: "Project"
+  - translation:
+      key: "txt.apps.harvest_app.form.start_timer"
+      title: "Button to start the clock"
+      value: "Start Timer"
+  - translation:
+      key: "txt.apps.harvest_app.form.stop_timer"
+      title: "Button to stop the clock"
+      value: "Stop Timer"
+  - translation:
+      key: "txt.apps.harvest_app.form.success"
+      title: "success message when hours are being entered"
+      value: "Hours sucessfully logged!"
+  - translation:
+      key: "txt.apps.harvest_app.form.task"
+      title: "Task label for the user to enter the name of a task"
+      value: "Task"
+  - translation:
+      key: "txt.apps.harvest_app.form.harvest_email"
+      title: "Harvest email field"
+      value: "Harvest Email"
+  - translation:
+      key: "txt.apps.harvest_app.form.harvest_password"
+      title: "Harvest password field"
+      value: "Harvest Password"
+  - translation:
+      key: "txt.apps.harvest_app.global.back"
+      title: "Back button"
+      value: "Back"
+  - translation:
+      key: "txt.apps.harvest_app.global.submit"
+      title: "Submit button"
+      value: "Submit"
+  - translation:
+      key: "txt.apps.harvest_app.global.submitting"
+      title: "Text once submit button is clicked"
+      value: "Submitting..."
+  - translation:
+      key: "txt.apps.harvest_app.confirm.title"
+      title: "Confirmation message warning the user that a timer is already running"
+      value: "A timer is already running!"
+  - translation:
+      key: "txt.apps.harvest_app.confirm.description"
+      title: "Description"
+      value: "Harvest only allows one timer running per user at a time. It seems that you already have a timer running for: <strong>{{project}}/{{task}}</strong>. Starting a new timer will stop the other timer."
+  - translation:
+      key: "txt.apps.harvest_app.confirm.start_timer"
+      title: "Confirmation button for the user to go ahead anyway"
+      value: "Start new timer anyway"
+  - translation:
+      key: "txt.apps.harvest_app.confirm.dont_start_timer"
+      title: "Cancellation button for the user to go back"
+      value: "Don't start a new timer"
+  - translation:
+      key: "txt.apps.harvest_app.loginError"
+      title: "Error message on login"
+      value: "There was an error logging you in, please check your details and retry."
+  - translation:
+      key: "txt.apps.harvest_app.invalidResponse"
+      title: "Error message when error from API"
+      value: "API response contains invalid data!"
+  - translation:
+      key: "txt.apps.harvest_app.problem"
+      title: "Problem message, the error placeholder here is a response message from the API"
+      value: "There's been a problem: {{error}}"
+  - translation:
+      key: "txt.apps.harvest_app.timer_stopped"
+      title: "Warning message to the user"
+      value: "Someone else stopped the timer!"
+  - translation:
+      key: "txt.apps.harvest_app.view_timesheet"
+      title: "Link to harvest site"
+      value: "View your Harvest timesheet..."
+
