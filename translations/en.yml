@@ -28,7 +28,7 @@ parts:
   - translation:
       key: "txt.apps.harvest_app.exception"
       title: "error message. the error placeholder here is the return from the api. it could be something like wrong credentials"
-      value: "An error occured: {{error}}"
+      value: "An error occurred: {{error}}"
   - translation:
       key: "txt.apps.harvest_app.form.add_duration"
       title: "button in the app"
@@ -76,7 +76,7 @@ parts:
   - translation:
       key: "txt.apps.harvest_app.form.success"
       title: "success message when hours are being entered"
-      value: "Hours sucessfully logged!"
+      value: "Hours successfully logged!"
   - translation:
       key: "txt.apps.harvest_app.form.task"
       title: "Task label for the user to enter the name of a task"
@@ -120,7 +120,7 @@ parts:
   - translation:
       key: "txt.apps.harvest_app.loginError"
       title: "Error message on login"
-      value: "There was an error logging you in, please check your details and retry."
+      value: "There was an error logging you in. Please check your details and retry."
   - translation:
       key: "txt.apps.harvest_app.invalidResponse"
       title: "Error message when error from API"
