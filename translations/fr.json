@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "L’URL complète de votre compte Harvest"
+      },
+      "defaultNote": {
+        "label": "Note par défaut",
+        "helpText": "Pré-remplir le champ Note (vous pouvez le modifier avant de lancer le compteur)"
+      },
+      "description": "Suivez le temps consacré aux tickets avec des rapports puissants"
+    }
+  },
+  "exception": "Une erreur est survenue : {{error}}",
+  "form": {
+    "add_duration": "Ajouter la durée",
+    "cancel_duration": "Annuler la durée",
+    "client": "Client",
+    "empty": "{{field}} est vide !",
+    "no_projects": "Aucun projet trouvé pour votre compte Harvest !",
+    "hours": "Heures",
+    "notes": "Remarques",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Projet",
+    "start_timer": "Lancer le compteur",
+    "stop_timer": "Arrêter le compteur",
+    "success": "Heures enregistrées !",
+    "task": "Tâche",
+    "harvest_email": "E-mail Harvest",
+    "harvest_password": "Mot de passe Harvest"
+  },
+  "global": {
+    "back": "Retour",
+    "submit": "Envoyer",
+    "submitting": "Envoi..."
+  },
+  "confirm": {
+    "title": "Un compteur est déjà en cours d’exécution !",
+    "description": "Harvest autorise uniquement l’exécution d’un compteur par utilisateur à la fois. Il semble que vous ayez déjà un compteur en cours d’exécution : <strong>{{project}}/{{task}}</strong>. Si vous lancez un nouveau compteur, l’autre compteur sera interrompu.",
+    "start_timer": "Lancer le nouveau compteur malgré tout",
+    "dont_start_timer": "Ne pas lancer de nouveau compteur"
+  },
+  "loginError": "Une erreur de connexion est survenue. Vérifiez vos détails et réessayez.",
+  "invalidResponse": "La réponse API contient des données non valides !",
+  "problem": "Un problème est survenu : {{error}}",
+  "timer_stopped": "Quelqu’un d’autre a arrêté le compteur !",
+  "view_timesheet": "Consulter votre feuille de temps Harvest…"
+}

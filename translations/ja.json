@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "Harvestアカウントの完全なURL"
+      },
+      "defaultNote": {
+        "label": "デフォルトのメモ",
+        "helpText": "メモ フィールドに事前に入力します（タイマーを開始する前に編集できます）"
+      },
+      "description": "強力なレポート機能でチケットの時間をトラッキングします"
+    }
+  },
+  "exception": "エラーが発生しました: {{error}}",
+  "form": {
+    "add_duration": "期間を追加",
+    "cancel_duration": "期間をキャンセル",
+    "client": "クライアント",
+    "empty": "{{field}}が空です!",
+    "no_projects": "Harvestのアカウントにプロジェクトが見つかりません!",
+    "hours": "時間",
+    "notes": "メモ",
+    "notes_message": "Zendesk No.#{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "プロジェクト",
+    "start_timer": "タイマーを開始",
+    "stop_timer": "タイマーを停止",
+    "success": "時間が正しく入力されました!",
+    "task": "タスク",
+    "harvest_email": "Harvestのメール",
+    "harvest_password": "Harvestのパスワード"
+  },
+  "global": {
+    "back": "戻る",
+    "submit": "送信",
+    "submitting": "送信中・・・"
+  },
+  "confirm": {
+    "title": "タイマーが既に実行されています!",
+    "description": "Harvestでは、一度に1ユーザーあたり1つのタイマーのみ実行できます。既に1つのタイマーを実行しているようです: <strong>{{project}}/{{task}}</strong>。新しいタイマーを開始すると、もう1つのタイマーが停止します。",
+    "start_timer": "このまま新しいタイマーを開始する",
+    "dont_start_timer": "新しいタイマーを開始しないでください"
+  },
+  "loginError": "ログイン中にエラーが発生しました。詳細を確認して、もう一度試してください。",
+  "invalidResponse": "APIの応答に無効なデータが含まれています!",
+  "problem": "問題が発生しました: {{error}}",
+  "timer_stopped": "他の誰かがタイマーを停止しました!",
+  "view_timesheet": "Harvestのタイムシートを表示..."
+}

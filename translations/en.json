@@ -1,56 +1,49 @@
 {
   "app": {
     "parameters": {
-      "url"         : { "label":    "URL",
-                        "helpText": "The full URL of your Harvest account"
-                      },
-      "defaultNote" : { "label":    "Default Note",
-                        "helpText": "Pre-populate the note field (you can edit this before starting a timer)" }
-                      },
-
-    "description":  "Track time on tickets, with powerful reporting"
+      "url": {
+        "label": "URL",
+        "helpText": "The full URL of your Harvest account"
+      },
+      "defaultNote": {
+        "label": "Default Note",
+        "helpText": "Pre-populate the note field (you can edit this before starting a timer)"
+      },
+      "description": "Track time on tickets, with powerful reporting"
+    }
   },
-
-  "exception": "An error occured: {{error}}",
-
+  "exception": "An error occurred: {{error}}",
   "form": {
-    "add_duration":     "Add Duration",
-    "cancel_duration":  "Cancel Duration",
-    "client":           "Client",
-    "empty":            "{{field}} is empty!",
-    "no_projects":      "No projects found for your Harvest account!",
-    "hours":            "Hours",
-    "notes":            "Notes",
-    "notes_message":    "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
-    "project":          "Project",
-    "start_timer":      "Start Timer",
-    "stop_timer":       "Stop Timer",
-    "success":          "Hours sucessfully logged!",
-    "task":             "Task",
-    "harvest_email":    "Harvest Email",
+    "add_duration": "Add Duration",
+    "cancel_duration": "Cancel Duration",
+    "client": "Client",
+    "empty": "{{field}} is empty!",
+    "no_projects": "No projects found for your Harvest account!",
+    "hours": "Hours",
+    "notes": "Notes",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Project",
+    "start_timer": "Start Timer",
+    "stop_timer": "Stop Timer",
+    "success": "Hours successfully logged!",
+    "task": "Task",
+    "harvest_email": "Harvest Email",
     "harvest_password": "Harvest Password"
   },
-
   "global": {
-    "back":       "Back",
-    "submit":     "Submit",
+    "back": "Back",
+    "submit": "Submit",
     "submitting": "Submitting..."
   },
-
   "confirm": {
-    "title"            : "A timer is already running!",
-    "description"      : "Harvest only allows one timer running per user at a time. It seems that you already have a timer running for: <strong>{{project}}/{{task}}</strong>. Starting a new timer will stop the other timer.",
-    "start_timer"      : "Start new timer anyway",
-    "dont_start_timer" : "Don't start a new timer"
+    "title": "A timer is already running!",
+    "description": "Harvest only allows one timer running per user at a time. It seems that you already have a timer running for: <strong>{{project}}/{{task}}</strong>. Starting a new timer will stop the other timer.",
+    "start_timer": "Start new timer anyway",
+    "dont_start_timer": "Don't start a new timer"
   },
-
-  "loginError": "There was an error logging you in, please check your details and retry.",
-
+  "loginError": "There was an error logging you in. Please check your details and retry.",
   "invalidResponse": "API response contains invalid data!",
-
   "problem": "There's been a problem: {{error}}",
-
   "timer_stopped": "Someone else stopped the timer!",
-
   "view_timesheet": "View your Harvest timesheet..."
 }

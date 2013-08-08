@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "URL completa per l’account Harvest"
+      },
+      "defaultNote": {
+        "label": "Nota predefinita",
+        "helpText": "Aggiungi dati predefiniti al campo nota (modificabili prima di avviare un timer)"
+      },
+      "description": "Tieni traccia dei ticket, con rapporti avanzati"
+    }
+  },
+  "exception": "Si è verificato un errore: {{error}}",
+  "form": {
+    "add_duration": "Aggiungi durata",
+    "cancel_duration": "Cancella durata",
+    "client": "Clienti",
+    "empty": "{{field}} è vuoto.",
+    "no_projects": "Nessun progetto trovato per il vostro account Harvest.",
+    "hours": "Ore",
+    "notes": "Note",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Progetto",
+    "start_timer": "Avvia Timer",
+    "stop_timer": "Ferma Timer",
+    "success": "Ore registrate correttamente.",
+    "task": "Compito",
+    "harvest_email": "E-mail Harvest",
+    "harvest_password": "Password Harvest"
+  },
+  "global": {
+    "back": "Indietro",
+    "submit": "Invia",
+    "submitting": "Invio in corso..."
+  },
+  "confirm": {
+    "title": "È già attivo un timer.",
+    "description": "Harvest consente l’uso di un solo timer alla volta per ciascun utente. È già attivo un timer per: <strong>{{project}}/{{task}}</strong>. Se si avvia un timer viene interrotto l’altro.",
+    "start_timer": "Avvia comunque un nuovo timer",
+    "dont_start_timer": "Non avviare un nuovo timer"
+  },
+  "loginError": "Errore durante l’accesso. Verifica le informazioni e riprova.",
+  "invalidResponse": "La risposta API contiene dati non validi.",
+  "problem": "Si è verificato un problema: {{error}}",
+  "timer_stopped": "Qualcun altro ha interrotto il timer.",
+  "view_timesheet": "Visualizza il foglio di presenza Harvest..."
+}

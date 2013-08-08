@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "A URL completa de sua conta do Harvest"
+      },
+      "defaultNote": {
+        "label": "Observação padrão",
+        "helpText": "Preencher previamente o campo de observações (você pode editar isso antes de iniciar um contador)"
+      },
+      "description": "Acompanhe o tempo dos tickets com relatórios poderosos"
+    }
+  },
+  "exception": "Ocorreu um erro: {{error}}",
+  "form": {
+    "add_duration": "Adicionar duração",
+    "cancel_duration": "Cancelar duração",
+    "client": "Cliente",
+    "empty": "{{field}} está vazio!",
+    "no_projects": "Nenhum projeto encontrado para sua conta do Harvest!",
+    "hours": "Horas",
+    "notes": "Observações",
+    "notes_message": "Zendesk nº#{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Projeto",
+    "start_timer": "Iniciar contador",
+    "stop_timer": "Interromper contador",
+    "success": "Horas registradas com êxito!",
+    "task": "Tarefa",
+    "harvest_email": "Email do Harvest",
+    "harvest_password": "Senha do Harvest"
+  },
+  "global": {
+    "back": "Voltar",
+    "submit": "Enviar",
+    "submitting": "Enviando..."
+  },
+  "confirm": {
+    "title": "Um contador já está em funcionamento!",
+    "description": "O Harvest permite o funcionamento de apenas um contador por usuário simultaneamente. Parece que você já tem um contador em funcionamento para: <strong>{{project}}/{{task}}</strong>. Iniciar um novo contador interromperá o outro.",
+    "start_timer": "Iniciar um novo contador assim mesmo",
+    "dont_start_timer": "Não iniciar um novo contador"
+  },
+  "loginError": "Ocorreu um erro na entrada. Verifique seus detalhes e tente novamente.",
+  "invalidResponse": "A resposta da API contém dados inválidos!",
+  "problem": "Ocorreu um problema: {{error}}",
+  "timer_stopped": "Outra pessoa interrompeu o contador!",
+  "view_timesheet": "Visualizar seu quadro de horários do Harvest..."
+}

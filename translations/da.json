@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "Den fulde URL for din Harvest-konto"
+      },
+      "defaultNote": {
+        "label": "Standardnote",
+        "helpText": "Udfyld notefeltet på forhånd (du kan redigere det inden start af en timer)"
+      },
+      "description": "Spor tid på tickets med stærk rapportering"
+    }
+  },
+  "exception": "Der forekom en fejl: {{error}}",
+  "form": {
+    "add_duration": "Tilføj varighed",
+    "cancel_duration": "Annuller varighed",
+    "client": "Klient",
+    "empty": "{{field}} er tom!",
+    "no_projects": "Der blev ikke fundet projekter til din Harvest-konto!",
+    "hours": "Timer",
+    "notes": "Notater",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Projekt",
+    "start_timer": "Start timer",
+    "stop_timer": "Stop timer",
+    "success": "Timer der blev logført.",
+    "task": "Opgave",
+    "harvest_email": "Harvest-e-mail",
+    "harvest_password": "Harvest-adgangskode"
+  },
+  "global": {
+    "back": "Tilbage",
+    "submit": "Send",
+    "submitting": "Sender…"
+  },
+  "confirm": {
+    "title": "Der kører allerede en timer!",
+    "description": "Med Harvest kan du kun køre én timer ad gangen pr. bruger. Det ser ud til, at der allerede kører en timer for: <strong>{{project}}/{{task}}</strong>. Hvis du starter en ny timer, standser den anden timer.",
+    "start_timer": "Start en ny timer alligevel",
+    "dont_start_timer": "Start ikke en ny timer"
+  },
+  "loginError": "Der forekom en fejl under logon. Tjek dine oplysninger, og prøv igen.",
+  "invalidResponse": "API-respons indeholder ugyldige data!",
+  "problem": "Der opstod et problem: {{error}}",
+  "timer_stopped": "En anden standsede timeren!",
+  "view_timesheet": "Vis din Harvest-timeseddel..."
+}

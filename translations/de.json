@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "Komplette URL Ihres Harvest-Kontos"
+      },
+      "defaultNote": {
+        "label": "Standardnotiz",
+        "helpText": "Notizfeld im Voraus ausfüllen (Sie können den Feldinhalt bearbeiten, bevor Sie einen Timer starten)"
+      },
+      "description": "Zeiterfassung in Tickets und leistungsstarke Berichtsfunktionen"
+    }
+  },
+  "exception": "Fehler aufgetreten: {{error}}",
+  "form": {
+    "add_duration": "Dauer hinzufügen",
+    "cancel_duration": "Dauer stornieren",
+    "client": "Client",
+    "empty": "{{field}} ist leer!",
+    "no_projects": "Keine Projekte für Ihr Harvest-Konto gefunden!",
+    "hours": "Stunden",
+    "notes": "Notizen",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Projekt",
+    "start_timer": "Timer starten",
+    "stop_timer": "Timer stoppen",
+    "success": "Stunden erfolgreich erfasst!",
+    "task": "Aufgabe",
+    "harvest_email": "E-Mail-Adresse für Harvest",
+    "harvest_password": "Kennwort für Harvest"
+  },
+  "global": {
+    "back": "Zurück",
+    "submit": "Einreichen",
+    "submitting": "Einreichen..."
+  },
+  "confirm": {
+    "title": "Es läuft bereits ein Timer!",
+    "description": "Es kann nur jeweils ein Timer pro Benutzer laufen. Es scheint bereits ein Timer zu laufen für <strong>{{project}}/{{task}}</strong>. Wenn Sie einen neuen Timer starten, wird der andere gestoppt.",
+    "start_timer": "Trotzdem einen neuen Timer starten",
+    "dont_start_timer": "Keinen neuen Timer starten"
+  },
+  "loginError": "Fehler bei der Anmeldung aufgetreten. Überprüfen Sie die Details und versuchen Sie es erneut.",
+  "invalidResponse": "API-Antwort enthält ungültige Daten!",
+  "problem": "Problem aufgetreten: {{error}}",
+  "timer_stopped": "Jemand anders hat den Timer gestoppt!",
+  "view_timesheet": "Eigenes Harvest-Timesheet anzeigen..."
+}

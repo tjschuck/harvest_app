@@ -1,0 +1,49 @@
+{
+  "app": {
+    "parameters": {
+      "url": {
+        "label": "URL",
+        "helpText": "EL URL completo de su cuenta de Harvest"
+      },
+      "defaultNote": {
+        "label": "Nota predeterminada",
+        "helpText": "Llene previamente el campo de notas (puede editarlo antes de iniciar un temporizador)"
+      },
+      "description": "Lleve un registro del tiempo que dedica a los tickets mediante potentes informes"
+    }
+  },
+  "exception": "Se ha producido un error: {{error}}",
+  "form": {
+    "add_duration": "Agregar duración",
+    "cancel_duration": "Cancelar duración",
+    "client": "Cliente",
+    "empty": "{{field}} está vacío.",
+    "no_projects": "No se ha encontrado ningún proyecto para su cuenta de Harvest.",
+    "hours": "Horas",
+    "notes": "Notas",
+    "notes_message": "Zendesk #{{ticket.id}} - {{ticket.subject}} - {{ticket.requester.name}}",
+    "project": "Proyecto",
+    "start_timer": "Iniciar temporizador",
+    "stop_timer": "Detener temporizador",
+    "success": "Horas registradas correctamente.",
+    "task": "Tarea",
+    "harvest_email": "Correo electrónico de Harvest",
+    "harvest_password": "Contraseña de Harvest"
+  },
+  "global": {
+    "back": "Atrás",
+    "submit": "Enviar",
+    "submitting": "Enviando..."
+  },
+  "confirm": {
+    "title": "Ya hay un temporizador en funcionamiento.",
+    "description": "Harvest solo permite un temporizador en funcionamiento por usuario a la vez. Parece que ya tiene un temporizador funcionando para: <strong>{{project}}/{{task}}</strong>. Si inicia un nuevo temporizador se detendrá el otro.",
+    "start_timer": "Iniciar nuevo temporizador de todos modos",
+    "dont_start_timer": "No iniciar un nuevo temporizador"
+  },
+  "loginError": "Hubo un error al iniciar sesión. Verifique los detalles y vuelva a intentar.",
+  "invalidResponse": "Respuesta de API contiene datos no válidos.",
+  "problem": "Ha ocurrido un problema: {{error}}",
+  "timer_stopped": "Otra persona detuvo el temporizador.",
+  "view_timesheet": "Ver parte de horas de Harvest..."
+}
