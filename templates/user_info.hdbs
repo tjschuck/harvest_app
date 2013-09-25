@@ -1,1 +1,1 @@
-{{store "username"}} <a href="#" class="logout">Logout</a>
+{{store "username"}} <a href="#" class="logout">{{t "logout"}}</a>
