@@ -3,7 +3,6 @@ title: "Harvest App"
 packages:
   - default
   - app_harvest_app
-  - classic
 
 parts:
   - translation:
